@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_lists",
+  "info": {
+    "singularName": "demo-list",
+    "pluralName": "demo-lists",
+    "displayName": "DemoList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
